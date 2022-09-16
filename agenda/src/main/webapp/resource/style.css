@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#tabela{
+	margin-top: 30px;
+}
+
+body{
+	background-color: #002333;
+}
+
+.acessar{
+	display: flex;
+	height: 500px;
+	align-items: center;
+}
+
+.botaoAcessar{
+	border-radius: 5px;
+	background-color: #015958;
+	padding: 20px 15px 20px 15px;
+	text-decoration: none;
+	color: white;
+	margin: auto;
+	transition: background-color 0.3s;
+}
+
+.botaoAcessar:hover{
+	background-color: gray;
+}
+
+main{
+	background-color: #DEEFE7;
+	padding: 10px;
+	border-radius: 5px;
+	width: 1200px;
+	height: 580px;
+	margin: auto;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header nav a{
+	background-color: #015958;
+	padding: 20px 10px 20px 10px;
+	border-radius: 5px; 
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+header nav a:hover{
+	background-color: gray;
+}
+
+.th{
+	border: 1px solid #ddd; 
+	padding: 10px;
+	text-align: left;
+	background: #66bbff;
+	color: white;
+	width: 300px;
+}
+
+#tabela th{
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background: #66bbff;
+	color: white;
+}
+
+#tabela td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.tbNovoContato{
+	display: flex;
+	height: 500px;
+}
+
+.tbNovoContato form{
+	margin: auto;
+}
+
+.formularioTb label{
+	padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+.formularioTb input{
+	border-radius: 15px;
+	border: none;
+	width: 300px;
+	height: 35px;
+	cursor: pointer;
+	padding: 10px
+}
+
+.enviar{
+	border: none;
+	border-radius: 10px;
+	width: 100px;
+	padding: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+}
+
+.editar-contato{
+	background-color: blue;
+	color: white; 
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: backgroud-color 0.3s;
+}
+
+.editar-contato:hover {
+	background-color: #4548ba;
+}
